@@ -1,4 +1,3 @@
-
 var express = require('express');
 var routes = require('./routes');
 
@@ -69,14 +68,14 @@ var ratings = [
 ];
 
 var commentCounts = [0, 0, 0, 0, 0, 0];
-var classTitles = ['Deep Learning with Neural Networks', 'Advanced Calculus for Scholarship Athletes', 'Data Structures and Algorithms in Python', 'Processing Big Data with Spark and Hadoop', 'Essential Mathematics for Machine Learning', 'Social Media for Career Advancement'];
+var classTitles = ['COMP 202 - Intro to Computer Programming', 'FACC 100 - Intro to Engineering Profession', 'ECSE 334 - Intro to Microelectronics', 'COMP 551 - Applied Machine Learning', 'COMP 424 - Artifical Intelligence', 'COMP 250 - Introduction To Computer Science'];
 var classDescriptions = [
-  'The future of software development lies in deep learning. Discover what deep learning is, how it works, and how to build neural networks using popular libraries such as CNTK and TensorFlow.',
-  'Take a deep dive into integrals, partial differential equations, and other tenets of advanced calculus. A great way to kill time on the sidelines while waiting for your name to be called!',
-  'Python is the language of choice for data scientists worldwide. Learn how to build machine-learning models in Python using popular libraries such as scikit-learn and TensorFlow.',
-  'Learn how to use Apache Hadoop and Apache Spark to extract information from massive datasets. Also learn how to deploy Hadoop and Spark clusters in Azure with just a few button clicks.',
-  'Machine learning is rooted in statistics. Prepare yourself for a career in machine learning by learning about regression and other tools that put the learning in machine learning.',
-  'Social media has changed the world we live in, and the modern computer scientist must learn how to harness its power for good. Learn how to use Facebook, Twitter, and other social-media platforms to further your career.'
+  'Introduction to computer programming in a high level language: variables, expressions, primitive types, methods, conditionals, loops. Introduction to algorithms, data structures (arrays, strings), modular software design, libraries, file input/output, debugging, exception handling.',
+  'Introduction to engineering practice; rights and code of conduct for students; professional conduct and ethics; engineer\'s duty to society and the environment; sustainable development; occupational health and safety; overview of the engineering disciplines taught at McGill.',
+  'Single-stage integrated-circuit amplifiers; differential and multistage amplifiers, integrated-circuit biasing techniques; non-ideal characteristics, frequency response; feedback amplifiers, output stages; digital CMOS logic circuits.',
+  'Selected topics in machine learning and data mining, including clustering, neural networks, support vector machines, decision trees. Methods include feature selection and dimensionality reduction, error estimation and empirical validation, algorithm design and parallelization, and handling of large data sets. Emphasis on good methods and practices for deployment of real systems.',
+  'Introduction to search methods. Knowledge representation using logic and probability. Planning and decision making under uncertainty. Introduction to machine learning.',
+  'Mathematical tools (binary numbers, induction, recurrence relations, asymptotic complexity, establishing correctness of programs), Data structures (arrays, stacks, queues, linked lists, trees, binary trees, binary search trees, heaps, hash tables), Recursive and non-recursive algorithms (searching and sorting, tree and graph traversal). Abstract data types, inheritance. '
 ];
 var imageUrls = ['/img/stars0.png', '/img/stars0.png', '/img/stars0.png', '/img/stars0.png', '/img/stars0.png','/img/stars0.png'];
 
